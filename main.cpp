@@ -3,6 +3,6 @@
 int main() {
     // Function calls to calculate
     // Write your all possible input scenarios here
-    // These will be utilized as input seed corpus
+    // Notice that calculator code is written to accomodate integer calculation only
     return 0;
 }
