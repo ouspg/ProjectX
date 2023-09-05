@@ -9,8 +9,8 @@
 
 using namespace std;
 
-float calculator(float num1, char op, float num2) {
-    float result;
+int calculator(int num1, char op, int num2) {
+    int result;
     string c = "FUZZING";
     switch (op) {
         case '+':
@@ -34,17 +34,6 @@ float calculator(float num1, char op, float num2) {
             cout << "Error: Invalid operator." << endl;
             return 1;
     }
-    if (result >= 20000) {
-    if (result >= 2000000) {
-      if (num2 - num1 < 100000) {
-        if (c == "FUZZING") {
-          char *s = (char *)malloc(8);
-          strcpy(s, "too long");
-          printf("%s\n", s);
-        }
-      }
-    }
-  }
 
     return result;
 }
