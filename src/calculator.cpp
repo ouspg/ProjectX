@@ -11,7 +11,6 @@ using namespace std;
 
 int calculator(int num1, char op, int num2) {
     int result;
-    string c = "FUZZING";
     switch (op) {
         case '+':
             result = num1 + num2;
